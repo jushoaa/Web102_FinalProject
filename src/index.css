@@ -1,0 +1,33 @@
+:root {
+  --primary: #0070f3;
+  --primary-hover: #005bb5;
+  --bg: #f4f5f8;
+  --card-bg: #ffffff;
+  --text: #333333;
+  --muted: #777777;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button, select, input, textarea {
+  font: inherit;
+}

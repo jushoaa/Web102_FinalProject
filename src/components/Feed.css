@@ -1,0 +1,61 @@
+.feed {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .feed-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: var(--radius);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .create-link {
+    padding: 0.25rem 0.75rem;
+    background: var(--primary);
+    color: #fff;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    flex-shrink: 0;
+    font-size: 0.9rem;
+  }
+  .create-link:hover {
+    background: var(--primary-hover);
+  }
+  
+  .search-bar {
+    flex: 1 1 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+    min-width: 150px;
+  }
+  
+  .sort-feed {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+  }
+  
+  .genre-filter {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: var(--radius);
+    max-width: 200px;
+    height: auto;     
+    appearance: none;
+    background: url("data:image/svg+xml,%3Csvg fill='%23777' viewBox='0 0 20 20'%3E%3Cpath d='M5.25 7.75L10 12.5l4.75-4.75'/%3E%3C/svg%3E")
+      no-repeat right 0.75rem center;
+    background-color: #fff;
+    background-size: 0.6rem;
+  }
+  .genre-filter[multiple] {
+    size: 1;
+  }
+  

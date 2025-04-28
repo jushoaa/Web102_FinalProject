@@ -1,0 +1,19 @@
+.genre-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pill {
+  padding: 0.4rem 0.8rem;
+  background: #eee;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.pill.selected {
+  background: var(--primary);
+  color: #fff;
+}

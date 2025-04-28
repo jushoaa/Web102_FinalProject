@@ -1,0 +1,37 @@
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+  }
+  
+  .comment-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .comment-text {
+    margin: 0 0 0.5rem;
+  }
+  
+  .comment-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    color: #777;
+  }
+
+  
+  .comment-upvote-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .comment-upvote-btn:hover {
+    text-decoration: underline;
+  }
+  
